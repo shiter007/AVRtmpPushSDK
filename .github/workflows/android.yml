@@ -18,7 +18,7 @@ jobs:
         with:
           # The gradle command you wish to run (required)
           # Here, `./gradlew test` will be run
-          script: assemble
+          script: assembleDebug
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         with:
