@@ -1,0 +1,9 @@
+name: react-native-android-build-apk
+on:
+  push:
+    branches:
+      - shiter007-patch-2
+jobs:
+  - name: automated-build-android-app-with-github-action
+    uses: amirisback/automated-build-android-app-with-github-action@2.2.4
+            
