@@ -22,7 +22,7 @@ jobs:
           path: ./
       - name: run_make
         run: |
-          cd AVRtmpPushSDK/AVRtmpPushSDK
+          cd ../AVRtmpPushSDK/AVRtmpPushSDK
           ./gradlew
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
